@@ -85,7 +85,7 @@
 
 				unavsaImage = new Image();
 				unavsaImage.setAttribute('crossOrigin', 'anonymous');
-				unavsaImage.src = './unavsa-logo.png' ;
+				unavsaImage.src = './unavsa.png' ;
 				unavsaImage.onload = function() {
 					context.globalAlpha = 1
 					context.globalCompositeOperation = "soft-light";
